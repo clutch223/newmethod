@@ -23,8 +23,8 @@ def load_config():
         return {"TOKEN": "", "ADMIN_IDS": []}
 
 config = load_config()
-TOKEN = config.get("8749691844:AAG7nLQGlFQpQdSjeSTPXcl-rviyAcg2fJ0") #
-ADMIN_IDS = config.get("8787952549") #
+TOKEN = config.get("TOKEN") #
+ADMIN_IDS = config.get("ADMIN_IDS") #
 
 # --- [ 2. BOT INITIALIZATION ] ---
 # Token load hone ke baad bot ko start karo
@@ -44,7 +44,7 @@ CONFIG = {
     "max_time": 240,
     "max_slots": 5,
     "maintenance": False,
-    "footer": "@DRX_POWER",
+    "footer": "@sastadeveloper",
     "cooldown": 60,  # Default cooldown 60 seconds (Ise aap /customize se change kar sakenge)
     "feedback_group_id": -1003906465304, # Apne group ki ID yahan dalein
 }
